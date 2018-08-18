@@ -272,7 +272,7 @@ namespace TheLastSlice.Entities
         {
             if(house != null)
             {
-                List<Ingredient> orderedPizza = house.Pizza;
+                List<Ingredient> orderedPizza = deliveredPizza; // house.Pizza;
 
                 bool deliveryCompleted = true;
 
